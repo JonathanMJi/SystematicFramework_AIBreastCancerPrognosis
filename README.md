@@ -11,8 +11,22 @@ These models were evaluated using the recall score, the accuracy score, the rece
 #Methodology
 
 Step 1: Identification of a machine learning problem: how to accurately predict the survivor rate of breast cancer patients.
+
 Step 2: Identification of relevant dataset to be analyzed. The dataset used in this project is the METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) database from cBioPortal.
-Step 3: Data Preprocessing and Gene-Set Signature Identification
+
+Step 3: Data Preprocessing and Gene-Set Signature Identification:
+  1) Drop the clinical data rows or columns that contain null values.
+  2) Convert categorical clinical data into dummy or indicator variables 
+  3) Split the dataset into three datasets and analyze the relationship between the subset data and outcomes
+  4) Create gene-set signature
+
+Step 4: Data Analysis and Modeling:
+  1) Identified 8 classical machine learning models: ("KNN", "Logistic Regression", "Decision Tree", "Random Forest","Extra Trees", "AdaBoost", "SVC", "XG Boost")
+  2) Identified 1 deep learning model ("CNN") using tensorflow and keras.
+  3) Trained each dataset on clinical attributes and gene set signature with 21 genes.
+  4) Applied optimization strategies to maximize the performance of each model.
+  5) Used model to predict prognosis for test data.
+  6) Plotted ROC Curve and evaluated the results.
 
 #Conclusion
 
