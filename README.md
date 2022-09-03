@@ -30,4 +30,4 @@ Step 4: Data Analysis and Modeling:
 
 #Conclusion
 
-The deep learning CNN model produced a 21 gene signature for the prediction of human breast cancer survival. The mRNA levels (mutations?) of these genes correlate well with breast cancer patients’ prognosis and histopathology. This gene set offers a statistically significant predictive value with an AUC (Area Under Curve) score of 0.902, indicating our model is an excellent discriminatory model.
+The deep learning CNN model produced a 21 gene signature for the prediction of human breast cancer survival. The mRNA levels (mutations) of these genes correlate well with breast cancer patients’ prognosis and histopathology. This gene set offers a statistically significant predictive value with an AUC (Area Under Curve) score of 0.900, indicating our model is an excellent discriminatory model.
